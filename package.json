@@ -4,8 +4,8 @@
     "description": "A Million Ads Backend Tech Test",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon app.ts",
-        "test": "jest",
+        "dev": "ts-node-dev app.ts",
+        "test": "jest --watch",
         "build": "tsc",
         "start": "node dist/app.js"
     },

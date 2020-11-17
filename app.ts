@@ -1,7 +1,7 @@
 import express, { Application, Request, Response, Router } from "express";
 import cors, {CorsOptions} from "cors";
 import helmet from "helmet";
-import postcodes from "./routes/postcode.route";
+import postcodes from "./src/routes/postcode.route";
 
 const app: Application = express();
 
